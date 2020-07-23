@@ -12,8 +12,8 @@ namespace Test\Vbpupil\Collection;
 
 use PHPUnit\Framework\TestCase;
 use Vbpupil\Collection\Collection;
-use Vbpupil\Collection\CollectionException;
-use Vbpupil\Collection\KeyInUseException;
+use Vbpupil\Collection\Exception\CollectionExceptin;
+use Vbpupil\Collection\Exception\KeyInUseException;
 
 class CollectionTest extends TestCase
 {
